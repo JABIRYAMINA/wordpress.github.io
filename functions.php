@@ -38,24 +38,4 @@ add_action('wp_enqueue_scripts', 'style');
 
 //fin function
 
-add_action('after_setyp_theme','hp');
-function areas(){
-
-    register_sidebar(
-        array(
-       'before_title' => '',
-       'after_title' => '',
-       'before_widget' => '',
-       'after_widget' => '',
-
-        ),
-        array(
-            'name' => 'sidebar_area',
-            'id' => 'sidebar',
-            'description' => 'widget area'
-           
-        )
-        );
-}
-add_action('widgets_init','areas');
-?>
+add_action('after_setyp_theme','hp');?>

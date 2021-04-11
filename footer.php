@@ -6,6 +6,7 @@
         <a href="https://twitter.com/login?lang=fr" class="fa fa-twitter" target="_blank"></a>
         <a href="https://www.instagram.com/?hl=fr" class="fa fa-instagram" target="_blank"></a>
     </div>
+  
 </footer>
 </div>
 

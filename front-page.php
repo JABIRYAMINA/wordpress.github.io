@@ -16,7 +16,7 @@ if(have_posts() ){
 ?>
 <img name="slide" class="slider">
 
-    <h1>Les bonnes sulutions et astuces pour vos lapin restent en bonnes santé</h1>
+    <h1>Les bonnes sulutions et astuces our vos lapin restent en bonnes santé</h1>
 
    
 
@@ -38,6 +38,7 @@ if(have_posts() ){
             <a href="<?php the_permalink();?>">Lire la suite</a>
 
         </div>
+        <?php get_template_part('includes/section','content');?>
     </div>
 
 </main>

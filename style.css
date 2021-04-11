@@ -389,12 +389,7 @@ label{
 .pagination a {
         color: blue;
         text-decoration: none;
-        padding-left:20px;
-      
-        
-       
-      
-}
+        padding-left:20px;      }
 
 /*page 404*/
 .containerNotfound{
@@ -413,40 +408,16 @@ label{
         -webkit-text-fill-color:transparent;
         -webkit-background-clip:text;
     }
-    
-    .pagehome{
+
+.pagehome{
     
     font-size:20px;
     text-decoration: none;
-    color:black;
-}
-.botton{
-    margin-top:200px;
-}
-.slider .slider-items .item{
+    color:black;}
 
-    display:none;
-    
-    }
-    .slider .slider-items .item.active{
-    display:block;
-    
-    
-    }
-    .slider .left-slide,.slider .right-slide{
-        position: absolute;
-        height: 40px;
-        width: 40px;
-        background-color:rgb(32, 30, 30);
-        border-radius: 50%;
-        color:#fff;
-        font-size:20px;
-        margin-top:-200px;
-        text-align: center;
-        line-height:40px;
-        cursor:pointer;
-    
-    }
+    .botton{
+    margin-top:200px;}
+
 
 
 
