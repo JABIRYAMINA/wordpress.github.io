@@ -15,10 +15,10 @@ if(have_posts() ){
 }
 ?>
 <img name="slide" class="slider">
+
     <h1>Les bonnes sulutions et astuces pour vos lapin restent en bonnes santé</h1>
 
-    <!--<img src="<?php echo get_template_directory_uri(); ?>/1.jpg" alt="avatar">-->
-                   <!--condition-->
+   
 
     <h2 class="h2">Les derniers articles</h2>
     <div class="cards">

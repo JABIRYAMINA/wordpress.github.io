@@ -1,6 +1,6 @@
 
    <!--cover-->
-   <img src=""  class="couvertures" alt="avatar">
+   <img src="<?php echo get_template_directory_uri(); ?>/images/couverture.jpg" class="couvertures" alt="avatar">
    <article>
          
             <h1 class="bigtitle">Catégories</h1>
@@ -9,7 +9,7 @@
             <div class="container-card">
          
                 <div class="card-1">
-                <img src="myRabbit/images/image-1.jpg" class="imgs">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" class="imgs">
                   
                     <div class="description">
                         <h3>Comprendre le langage corporel du lapin</h3>
@@ -21,7 +21,7 @@
 
                 </div>
                 <div class="card-2">
-                <img src="" class="imgs">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/image-2.jpg" class="imgs">
                     <div class="description">
                         <h3>Trouver l'âge général d'un lapin</h3>
                         <p>Il n'est malheureusement pas facile de déterminer l'âge d'un lapin
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="card-3">
-                    <img src="..//images/image-3.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-3.jpg" class="imgs">
                     <div class="description">
                         <h3>Préparer l'habitat du lapin</h3>
                         <p>Un lapin peut être apprivoisé et joueur tout en restant un animal social.
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="card-4">
-                    <img src="..//images/image-4.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-4.jpg" class="imgs">
                     <div class="description">
                         <h3>garder un lapin au chaud</h3>
                         <p>En hiver, il est essentiel de protéger votre lapin et de le garder au
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="card-5">
-                    <img src="..//images/image-5.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-5.jpg" class="imgs">
                     <div class="description">
                         <h3>Choisir des jouets pour un lapin</h3>
                         <p>Les lapins sont des animaux sociaux qui adorent jouer avec les gens.
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="card-6">
-                    <img src="..//images/image-6.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-6.jpg" class="imgs">
                     <div class="description">
                         <h3>préparer une cage pour un lapin</h3>
                         <p>Les lapins peuvent faire d'excellents animaux de compagnie.
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="card-7">
-                    <img src="..//images/image-7.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-7.jpg" class="imgs">
                     <div class="description">
                         <h3>Identifier les maladies</h3>
                         <p>Les lapins ont naturellement tendance à cacher leurs maladies et, pour
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="card-8">
-                    <img src="..//images/image-8.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-8.jpg" class="imgs">
                     <div class="description">
                         <h3>Préparer l’arrivée des bébés lapins</h3>
                         <p>Si votre lapin attend des petits, il y a différentes mesures que vous
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="card-9">
-                    <img src="..//images/image-9.jpg" class="imgs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/image-9.jpg" class="imgs">
                     <div class="description">
                         <h3>Nourrir le lapin</h3>
                         <p>Votre lapin domestique mérite de recevoir une alimentation saine
