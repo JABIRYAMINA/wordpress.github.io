@@ -1,0 +1,439 @@
+/*
+Theme Name: Rabbit
+Text Domain: Amina
+Version: 1.0
+Description:Theme Blog Lapin Rabbit Pas Responsive
+Author: Amina  
+Author URI : https://localhost/wordpress/
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*page index*/
+
+
+
+img{
+   
+    height:500px;
+    width:70%; 
+    margin-top:4%;
+    padding:5px;
+} 
+.titre{
+    margin-left:7%;
+    margin-top:15px;
+    position: absolute;
+} 
+.list{
+   
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(88, 87, 87);
+    height:55px; 
+    width:100%;  
+   
+} 
+
+/*logo*/
+.logo{
+   
+    width:80px;
+    height:55px;
+    position:absolute;
+    transform: translate(0px,-54px);
+    margin-left:-2px;
+   
+}
+
+/*navigation*/
+.list{
+   
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(88, 87, 87);
+    height:55px; 
+    width:100%;  
+   
+}
+.list li {
+    margin-top:18px;
+}
+
+.list li a{
+    text-decoration: none;
+    padding:30px;
+   color:white;
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+   
+}
+/*hover-menu*/
+.list li:hover{
+    box-shadow: 0px 0px 150px #000000;
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    background:rgb(149, 122, 78); 
+}
+h1{
+    display: flex;
+   position: absolute;
+  
+}
+.milieu{
+  display:flex;  
+}
+.card-a{
+    position: absolute;
+    border:solid 10px rgb(88, 87, 87);
+    width:322px;
+    height:190px;
+    text-align:center;
+    margin-top:10%;
+    margin-left:3%;
+    
+}
+
+.card-b{
+    position: absolute;
+    border:solid 10px rgb(88, 87, 87);
+    width:320px;
+    height:170px;
+    text-align:center;
+    margin-top:28%;
+    margin-left:3%;
+  
+ } 
+ .h2{
+     position:absolute;
+     margin-top:5%; 
+     margin-left:76%;
+     
+
+ }
+
+ /*social media*/
+ .footers{
+    position: relative;
+    background-color: rgb(88, 87, 87);
+    height:70px;
+    margin-top:2%;
+    display:flex;
+ }
+.copyright{
+    flex-grow:1;
+    color:white;
+    margin:2%;
+}
+.icons{
+    padding:20px;
+ 
+}
+
+.fa {
+    width: 40px;
+    border: #000;
+    border-radius: 48%;
+    font-size: 30px;
+    padding:6px;
+    color:white;
+    text-align: center;
+    background-color: #000;
+    text-decoration: none;
+  }
+
+ /*style a propos*/
+ .photo{
+    height:500px;
+     width:650px;
+     padding:10px;
+}
+section{
+    position:absolute;
+    padding-left:56%;
+    margin-top:-35%;
+} 
+.icon{
+    margin-left:89%;
+    padding-top:3%;  
+  
+}
+.footer{
+position: absolute;
+color:white;
+padding-top:5%;
+}
+
+/*style CSS blog*/
+
+/*couverture lapin*/
+.couvertures{
+    
+  width:98.7%;
+  padding:2%;
+   
+}
+.bigtitle{
+    margin-top:-4%;
+    margin-left:45%;
+    
+    
+}
+
+/*card-rabbits-blog*/
+.container-card{
+  
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+    justify-content: center;
+      
+}
+
+.card-1{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+    
+    
+          
+}
+.card-2{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-3{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-4{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-5{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-6{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-7{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-8{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+.card-9{
+    background-color:rgb(88, 87, 87);
+    height:370px;
+    width:360px;
+      
+}
+/*la description */
+
+.description{
+    text-align: center;
+    margin-top:47%;
+}
+.imgs{
+    position: absolute;
+    width:360px;
+    height: 160px;
+    margin-top:0%;
+    margin-left:-0%;
+}
+
+/*button lire la suite*/
+.button{
+    padding:6px;
+    width:140px;
+    margin-top:2%;
+       
+}
+.btn{
+    margin-top:7%;
+    padding:6px;
+    width:140px;
+}
+
+/*hover and animation button*/
+.button:hover{
+    cursor:pointer;
+    background-color:rgb(41, 41, 44);
+    color:white;
+    animation-name:botton;
+    animation-duration:1s;
+    animation-iteration-count:3; 
+}
+/*hover and animation button*/
+.btn:hover{
+    cursor:pointer;
+    background-color:rgb(41, 41, 44);
+    color:white;
+    animation-name:botton;
+    animation-duration:1s;
+    animation-iteration-count:3; 
+}
+@keyframes botton{
+    from{
+        width:170px;
+        
+    }
+    to{
+        width:220px;
+    }
+}
+
+/* Style CSS contact*/
+.image-3{
+    height:500px;
+    width:550px;
+    margin:10px;
+    
+   
+}
+.contacts{
+    margin-left:59%;
+    margin-top:-37%;
+}
+
+
+.name{
+
+    width:200px;
+    height:30px;
+
+}
+.message{
+ margin-top:5%;
+ margin-left:50%;
+
+}
+
+.email{
+
+    margin-left:80px;
+    width:200px;
+    height:30px;
+
+}
+.contact{
+  
+    text-align:center;
+    margin-left:36%;
+    margin-top:-25%;    
+}
+
+.send{
+  
+    margin-left:673px;
+    width:500px;
+    padding:1%;
+    margin-top:0.5%;
+   
+}
+.send:hover{
+    background-color: rgb(216, 185, 148);
+    cursor: pointer; 
+
+}
+/*label*/
+label{
+    position: absolute;
+    margin-top:-2%;
+    
+}
+.position{
+  
+   padding-left:6%; 
+}
+
+
+
+/*page lire la suite*/
+.view{
+   margin-top:-35%;
+   margin-left:55%; 
+ 
+}
+.view-1{
+    position: absolute;
+    margin-top:-30%;
+    width:45%;
+    margin-left:53%;
+}
+
+.img-5{
+  
+ width:50%;
+ margin-top:1%;
+}
+.pagination{
+    margin-left:70%;
+}
+.pagination a {
+        color: blue;
+        text-decoration: none;
+        padding-left:20px;
+      
+        
+       
+      
+}
+
+/*page 404*/
+.containerNotfound{
+    text-align:center;
+    padding:200px;
+    background-image: linear-gradient(#6a89cc,#85947a);
+    height:100vh;
+   
+    }
+    .quatrecentsquatre{
+        font-size:160px;
+        letter-spacing: 20px;
+        margin-left:25%;
+        margin-top:1%;
+        background: url(..//images/broceliande.jpg) center no-repeat;
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+    }
+    
+    .pagehome{
+    
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+}
+.botton{
+    margin-top:200px;
+}
+
+
+
+
+
+
+
