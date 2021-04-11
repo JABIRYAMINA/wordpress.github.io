@@ -14,7 +14,7 @@ if(have_posts() ){
 
 }
 ?>
-<img name="slide" class="slider">
+<img name="slide" class="slider" src="<?php echo get_template_directory_uri(); ?>/1.jpg">
 
     <h1>Les bonnes sulutions et astuces our vos lapin restent en bonnes santé</h1>
 

@@ -20,7 +20,8 @@ function style() {
 //chargement des styles
     wp_enqueue_style( 'custom', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
 //chargement de js    
-    wp_enqueue_style( 'js', get_template_directory_uri() . '/js/javascript.js', array(), '1.0', false);
+ 
+wp_enqueue_style( 'js', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', false);
 }
 //fin function
 add_action('wp_enqueue_scripts', 'style');
@@ -38,4 +39,6 @@ add_action('wp_enqueue_scripts', 'style');
 
 //fin function
 
-add_action('after_setyp_theme','hp');?>
+add_action('after_setyp_theme','hp');
+
+?>
